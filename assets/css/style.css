@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(252, 119, 119), rgb(94, 94, 252));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    color: white;
+}
+
+.header h1 {
+    font-family: monospace;
+} 
+
+.header h1 img {
+    height:44px;
+    margin: auto;
+}
+
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+
+
+
+
+h2 {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgba(255, 203, 34, 0.835);
+    padding: 20px;
+}
+
+h2 span {
+    color: rgb(216, 255, 180);
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(64, 64, 64, 0.719);
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    text-align-last: center;
+}
+
+.project-container {
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project {
+    margin: 20px;
+    width: 25%;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.project:hover {
+    transform: scale(1.01);
+    transition: all linear .2s;
+    box-shadow: 5px 5px 10px rgb(118, 118, 118);
+}
+
+/* CARD BUTTON START */
+.btn {
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    /* padding: 10px 20px; */
+    border-radius: 2rem;
+    color: rgb(75, 75, 75);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px ;
+    font-weight: 900;
+    margin-top: 80px;
+}
+
+.btn:hover {
+    color:rgb(255, 255, 255);
+    background-color: orangered;
+    transition: all linear .2s;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a img {
+    height: 48px;
+    width: auto;
+    background-color: rgb(255, 242, 0);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 4px 0px 0px 4px ;
+}
+/* CARD BUTTON END*/
+/*  */
+
+
