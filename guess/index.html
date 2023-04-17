@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/guess.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="icon" type="image/favicon.ico" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container console custom-cursor">
+        <div class="screen">
+            <h1 class="head">Guess My Number!</h1>
+            <p class="between">(Between 1 and 20)</p>
+            <p class="message">Start Guessing...</p>
+            <p class="number">?</p>
+            <div class="input-sec">
+                <input type="number" class="guess">
+                <button type="submit" class="check1">Check!</button>
+            </div>
+            <div class="statusBar">
+                <p class="label-score"> Score : <span class="score">20</span> </p>
+                <p class="label-highscore"> Highscore : <span class="highscore">0</span></p>
+            </div>
+        </div>
+        <button class="check2"></button>
+    </div>
+    <div class="rules">
+        <p> Rules :
+            <li>This programme generates <span> a random number between 1 and 20</span> every time you reload the page.
+                <br> You have to guess what that number is, enter your guess and click <span> check</span> button<br>
+                This is one and only rule in this simple programme.
+            </li>
+            <li>You will see message wether the number you entered is correct or not. If your guessed number is LOW, try
+                higher number value and vice-versa, and click <span> check </span> again</li>
+            <li>Score and Highscore are tested to work as intended. </li>
+        </p>
+
+        <div class="rules">
+            <p> Upcoming Features :
+                <li>A <span>RESET </span>button, to reset your game (destroying highscore)</li>
+                <li>A <span>PLAY AGAIN </span>button , to reset your game (without destroying highscore)</li>
+            </p>
+        </div>
+
+        <div class="footer">
+            <hr>
+            Designed &amp; Developed by <a href="https://www.pushprajdwivedi.in" target="_blank">Pushpraj Dwivedi</a>
+            <br> &copy; 2023 | All rights reserved
+        </div>
+        <div class="social-links">
+            <a href="https://www.github.com/pushpraj-rmx/" target="_blank"><i class="lab la-github"></i></a></i>
+            <a href="https://www.linkedin.com/in/pushpraj-rmx/" target="_blank"><i class="lab la-linkedin"></i></a></i>
+            <a href="https://www.instagram.com/pushpraj.rmx/" target="_blank"><i class="lab la-instagram"></i></a>
+            <a href="https://wa.me/+918358918519" target="_blank"><i class="lab la-whatsapp"></i></a>
+            <a href="https://www.facebook.com/pushpraj-rmx/" target="_blank"><i class="lab la-facebook"></i></a>
+        </div>
+
+        <script src="assets/js/guess.js"></script>
+</body>
+
+</html>
