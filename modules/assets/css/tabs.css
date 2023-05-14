@@ -1,0 +1,37 @@
+.box {
+    background-color: rgb(77, 77, 77);
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    line-height: 1.8;
+    display: flex;
+}
+
+
+.box img {
+    border-radius: 20px;
+    height: 300px;
+}
+
+.box p {
+    margin: 40px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.box p span {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 164, 128);
+}
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
