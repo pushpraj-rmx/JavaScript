@@ -1,0 +1,23 @@
+#+title: Fundamentals
+
+
+* Introduction 
+
+- is dynamically typed 
+
+
+* DDataTypes 
+
+values are either object or primitive 
+
+1. Numbers are always floating point 
+2. Strings - sequence of characters  # firstName = yourName
+3. Boolean
+4. Undefined - declared but value not set 
+5. Null - 
+6. Symbol - 
+7. BigInt 
+
+
+
+number string boolean null 
